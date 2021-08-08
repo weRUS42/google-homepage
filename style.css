@@ -1,0 +1,40 @@
+.nav-img1 {
+    width: 24px;
+}
+.nav-img1:hover {
+    background-color: #f0f0f0;;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px #f0f0f0;;
+}
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+a:hover {
+    text-decoration: underline;
+}
+nav {
+    display: flex;
+    flex-flow: row-reverse;
+}
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+.nav-list {
+    color: rgba(0,0,0,0.87);
+    list-style: none;
+    float: right;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav-img2 {
+    border-radius: 50%;
+    width: 32px;
+}
+.nav-img2:hover {
+    background-color: #f0f0f0;;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px #f0f0f0;;
+}
